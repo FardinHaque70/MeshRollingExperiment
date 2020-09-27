@@ -88,5 +88,6 @@ public class LevelManager : MonoBehaviour
 		totalRollSystemCount = 0;
 		GameManager.instance.hasControl = false;
 		GameManager.instance.OnLevelComplete();
+		UIManager.instance.ScreenFlash();
 	}
 }

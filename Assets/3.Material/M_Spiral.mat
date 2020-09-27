@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Spiral
+  m_Shader: {fileID: 4800000, guid: 9adbb90b44d384146a3d1169289a2fc0, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 750b1bd7ba8bd28489650de6d0a95cc5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTexture:
+        m_Texture: {fileID: 2800000, guid: aeff05888a9f9fc409206185010b0ee3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0.51, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: aeff05888a9f9fc409206185010b0ee3, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Divide: 3.33
+    - _Float0: 1
+    - _Float2: 0
+    - _Fold: 0.91
+    - _Max: 1
+    - _Min: 0
+    - _NewMax: 1
+    - _NewMin: 0.01
+    - _OldMax: 1
+    - _OldMin: 0
+    - _Scale: 0.02
+    - _Shapness: 1
+    - _ShapnessTweak: 0.38
+    - _ThetaMax: 21
+    - _ThetaMax1: 1
+    - _XOffset: 16.7
+    - _YOFfset: 12.81
+    - _YOffset: 1
+    - _YOffset1: 1
+    - _ZOffset: 0
+    - __dirty: 0
+    m_Colors:
+    - _Color0: {r: 1, g: 0.81193435, b: 0.09803921, a: 0}
+    - _MainCOlor: {r: 1, g: 0.6808246, b: 0.1372549, a: 1}
+    - _MainColor: {r: 1, g: 0.6808246, b: 0.1372549, a: 1}
+    - _UVOffset: {r: 1.4, g: 0, b: 0, a: 0}
